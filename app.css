@@ -1,0 +1,95 @@
+/* General settings */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    /* Light grey background */
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+
+.centered-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: rgb(179, 228, 130);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.button {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.button.is-primary {
+    background-color: #1ae049;
+}
+
+.button.is-link {
+    background-color: #5865f2;
+}
+
+.button.is-danger {
+    background-color: #dc3545;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border: 1px solid #59bfe8;
+    border-radius: 4px;
+}
+
+.notification {
+    padding: 15px;
+    background-color: #17a2b8;
+    border-radius: 6px;
+    color: white;
+    margin-top: 10px;
+}
+
+.notification p {
+    margin: 0;
+}
+
+.centered-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
